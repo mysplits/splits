@@ -6,6 +6,8 @@ You need a shell on the athlete's computer: this runs from **Claude Code** (the 
 
 Explain each step in one plain sentence before running it. The athlete never needs to type commands.
 
+The athlete has already been told, in step 0 of `SKILL.md`, that this connection is unofficial and could be blocked, and has given their OK. Do not install anything without that OK.
+
 ## 1. Check what is there
 
 - Python 3.10 or newer: `python3 --version` (macOS, Linux) or `py --version` / `python --version` (Windows). If it is missing, guide the athlete to install it from python.org (on Windows, tick "Add python.exe to PATH") and continue after.

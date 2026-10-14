@@ -38,7 +38,9 @@ SPLITS keeps its memory in a local folder the athlete chooses during setup (defa
 Walk the athlete through these steps in order. One step at a time, short messages, and confirm before moving on.
 
 ### 0. Connect TrainingPeaks
-Call `tp_auth_status`. If the `tp_*` tools are not available or authentication fails, follow `references/setup-trainingpeaks.md`. Do not continue until `tp_auth_status` is OK.
+First, always, even if the connector is already installed: tell the athlete in one or two plain sentences that SPLITS reaches TrainingPeaks through an unofficial connection that uses their own browser session, that it may not be allowed by TrainingPeaks' terms and could be blocked at any time, and that SPLITS is not affiliated with TrainingPeaks. Ask for their OK; if they say no, stop setup.
+
+Then call `tp_auth_status`. If the `tp_*` tools are not available or authentication fails, follow `references/setup-trainingpeaks.md`. Do not continue until `tp_auth_status` is OK.
 
 ### 1. Choose the folder
 Ask where to keep SPLITS's files (default `~/SPLITS`). Create the folder, the empty `sessions/swim`, `sessions/bike`, `sessions/run`, `sessions/brick`, `sessions/strength` and `races/` subfolders, and `athlete.md` from its template. `plan.md` and `status.md` are created in step 5.

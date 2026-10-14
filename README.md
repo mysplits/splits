@@ -36,6 +36,7 @@ SPLITS is a free skill for Claude. It reads your TrainingPeaks, asks you what it
 
 - SPLITS has no server. Your own Claude talks to TrainingPeaks from your own computer.
 - The connection uses the open-source [TrainingPeaks MCP server](https://github.com/JamsusMaximus/trainingpeaks-mcp) by James McAulay. Your TrainingPeaks session cookie is stored encrypted in your system keyring and is never shown to Claude.
+- **The connection is unofficial.** TrainingPeaks' official API is approval-gated, so the connector uses your own browser session instead. This may not be allowed by TrainingPeaks' terms of use, and TrainingPeaks could block it at any time. SPLITS is not affiliated with TrainingPeaks.
 - Your profile, plan and session notes live in a local folder you choose.
 - Nothing is loaded into your calendar without your OK.
 
